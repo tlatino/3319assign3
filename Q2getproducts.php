@@ -8,8 +8,8 @@
    if (!$result) {
         die("databases query failed.");
     }
-   echo "So many products wow </br>";
-   echo "<table>";
+   echo "</br>So many products wow </br>";
+   echo "<table align='center'>";
    echo "<th>Product Name</th>";
    echo	"<th>Price</th>";
    echo	"<th>Quantity Left</th>";

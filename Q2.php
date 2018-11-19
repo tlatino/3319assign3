@@ -9,10 +9,10 @@
 <?php
 include 'connectdb.php';
 ?>
-<form  method="post" action="Q2.php">
+<form style="text-align: center;" method="post" action="Q2.php">
 <select name="ordering">
-	<option selected="selected" value="ASC">ascending</option>
-	<option value="DESC">descending</option>
+	<option selected="selected" value="ASC">Ascending</option>
+	<option value="DESC">Descending</option>
 </select>
 <select name="type">
         <option selected="selected" value="cost">Price</option>

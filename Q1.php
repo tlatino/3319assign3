@@ -24,6 +24,9 @@ include 'connectdb.php';
 <form class= buttonwrap method="get" action="Q2.php">
     <button type="submit">Products</button>
 </form>
+<form class= buttonwrap method="get" action="Q9.php">
+    <button type="submit">Q9</button>
+</form>
 </body>
 </html>
 
