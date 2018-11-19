@@ -1,0 +1,21 @@
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+body{
+        background-color: rgb(177, 185, 183);
+}
+select, input{
+       	align-self: auto;
+        font: bold 16px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 5px 4px 5px 4px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+

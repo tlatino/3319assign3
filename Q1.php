@@ -17,6 +17,13 @@ include 'connectdb.php';
 ?>
 <input type="submit" value="Get Customer Purchases">
 </form> 
+
+<h3> Want to see all the products? Click Here</h3>
+
+
+<form class= buttonwrap method="get" action="Q2.php">
+    <button type="submit">Products</button>
+</form>
 </body>
 </html>
 
