@@ -1,20 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>BUY AND SELL</title>
 <link rel="stylesheet" href="Q2.css">
-</head>
-<body>
-<?php
-include 'connectdb.php';
-?>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>BUY AND SELL</title>
-<link rel="stylesheet" href="Q9.css">
 </head>
 <body>
 <?php
@@ -34,6 +24,10 @@ include 'connectdb.php';
 </br></br></br></br>
 <?php
    include 'Q8.php';
+?>
+</br></br></br></br>
+<?php
+   include 'Q7.php';
 ?>
 </body>
 </html>

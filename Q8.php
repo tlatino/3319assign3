@@ -1,3 +1,5 @@
+<form style="text-align: center;" method="post" action="">
+
 <?php
    $query = "SELECT description FROM product LEFT JOIN purchase ON purchase.productID=product.productID WHERE purchase.customerID IS NULL";
    $result = mysqli_query($connection,$query);
@@ -10,3 +12,4 @@
    }
    mysqli_free_result($result);
 ?>
+</form>
