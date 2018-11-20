@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BUY AND SELL</title>
+<link rel="stylesheet" href="Q2.css">
+</head>
+<body>
+<?php
+include 'connectdb.php';
+?>
+<H2>Insert a new product:</H2></br>
+<?php
+   include 'QQQWQf'
+?>
+</body>
+</html>
