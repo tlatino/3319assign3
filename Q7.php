@@ -7,5 +7,5 @@ include 'connectdb.php';
  <?php
    include 'Q7find.php';
  ?>
-<input type="submit" value="Find Purchases with large sales" />
+<input type="submit" value="Find Purchases with larger sales" />
 </form>

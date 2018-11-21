@@ -48,3 +48,7 @@ h3{
 .buttonwrap{
 	text-align: center;
 }
+form{
+	float: left;
+	clear: right;
+}

@@ -14,20 +14,24 @@ include 'connectdb.php';
 <?php
    include 'Q9getprod.php';
 ?>
-</br></br></br></br>
+</br></br>
 <?php
    include 'Q9calc.php';
 ?>
-</br></br></br></br>
+</br></br>
 <input type="submit" value="Find Sales" />
 </form>
-</br></br></br></br>
+</br></br>
 <?php
    include 'Q8.php';
 ?>
-</br></br></br></br>
+</br></br>
+<h4 style="text-align: center;">Find Products That Have Been Bought More Than This.</h4>
 <?php
    include 'Q7.php';
+?>
+<?php
+   include 'Q3.php';
 ?>
 </body>
 </html>

@@ -9,11 +9,11 @@
 <?php
 include 'connectdb.php';
 ?>
-<H2>Insert a new purchase:</H2></br>
+<H2 style="text-align: center">Insert a new purchase:</H2></br>
 <form style="text-align: center;" method="post" action="">
-Product ID: <input type='text' name='prodID'></br>
+ Product ID: <input type='text' name='prodID'></br>
 Customer ID: <input type='text' name='custID'></br>
-Quantity: <input type='text' name='qnt'></br>
+   Quantity: <input type='text' name='qnt'></br>
 <?php
    include 'Q3check.php'
 ?>
@@ -34,6 +34,7 @@ if(isset($check)){
    else{
          include 'Q3insertnew.php';
    }
+   echo "<meta http-equiv='refresh' content='0'>";
 }
 ?>
 <input type="submit" value="Update purchase list" />

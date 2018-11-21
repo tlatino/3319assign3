@@ -5,7 +5,8 @@ $result = mysqli_query($connection,$query);
    if (!$result) {
         die("databases query failed.");
     }
-   echo "Products purchased more than " . $_POST["quantity"] .  " times: ";
+   if (mysqli_num_rows($result)==0) { echo "No products with that many purchases</br>"; }
+   else {echo "Products purchased more than " . $_POST["quantity"] .  " times: ";}
    while ($row = mysqli_fetch_assoc($result)) {
         echo "<li>" . $row["fn"] . " " . $row["ln"] . " Product: " . $row['description'] . " Quantity: " . $row["q"] .  "</li></br>";
    }
