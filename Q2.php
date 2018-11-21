@@ -9,18 +9,18 @@
 <?php
 include 'connectdb.php';
 ?>
-<form style="text-align: center;" method="post" action="Q2.php">
+<form style="text-align: center;" method="post" action="Q2.php"><!reload on submit>
 <select name="ordering">
-	<option selected="selected" value="ASC">Ascending</option>
+	<option selected="selected" value="ASC">Ascending</option>//option ascending and descending table
 	<option value="DESC">Descending</option>
 </select>
 <select name="type">
-        <option selected="selected" value="cost">Price</option>
+        <option selected="selected" value="cost">Price</option>// option price or name 
         <option value="description">Name</option>
 </select>
-<input type="submit" value="REORDER" />
+<input type="submit" value="REORDER" /><!button to reorder table>
 <?php
-   include 'Q2getproducts.php';
+   include 'Q2getproducts.php';//display table
 ?>
 </form>
 </body>

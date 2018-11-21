@@ -11,14 +11,14 @@
 ?>
 <form style="text-align: center;" method="post" action="">
 <?php
-   include 'Q6getcustomerdata.php';
+   include 'Q6getcustomerdata.php';//get list of customers
 ?>
 <input type='submit' value='Delete Customer'>
 </form>
 <?php
 if(isset($_POST['customers6'])){
 
-   include 'Q6delete.php';
+   include 'Q6delete.php';//delete and refresh page
    echo "<meta http-equiv='refresh' content='0'>";
 }
 ?>

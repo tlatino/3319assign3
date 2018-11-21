@@ -11,15 +11,15 @@
 ?>
 <form style="text-align: center;" method="post" action="">
 <?php
-   include 'Q5getcustomerdata.php';
+   include 'Q5getcustomerdata.php';//get and display the customer data
 ?>
-<input type='text' name='phonenum' value='New Phone Number'>
+<input type='text' name='phonenum' value='New Phone Number'><!get new phone number>
 <input type='submit' value='Update Phone Number'>
 </form>
 <?php
-if(isset($_POST['phonenum']) && isset($_POST['customers'])){
+if(isset($_POST['phonenum']) && isset($_POST['customers'])){//if they chose and inputed new number
 
-   include 'Q5update.php';
+   include 'Q5update.php';//update the number and refresh page to show changes
    echo "<meta http-equiv='refresh' content='0'>";
 }
 ?>
