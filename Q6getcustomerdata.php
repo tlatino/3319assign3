@@ -5,12 +5,14 @@
    if (!$result) {
         die("databases query failed.");
     }
-   echo "Who Are you Deleting? </br>";
+   echo "<h3>Who Are You Deleting? </h3></br>";
+   echo "<table>";
    while ($row = mysqli_fetch_assoc($result)) {//display all the people that can be deleted
-        echo '<input type="radio" name="customers6" value="';
+        echo '<tr><td><input type="radio" name="customers6" value="';
         echo $row["customerID"];
-        echo '">' . $row["customerID"] . ": " . $row["lastName"] . ", " . $row["firstName"] . "<br>";
+        echo '"></td><td>' . $row["customerID"] . ": " . $row["lastName"] . ", " . $row["firstName"] . "</td></tr>";
    }
+   echo "</table>";
    mysqli_free_result($result);
    mysqli_close($connection);
 ?>

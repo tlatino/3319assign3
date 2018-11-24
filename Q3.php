@@ -11,9 +11,17 @@ include 'connectdb.php';
 ?>
 <H2 style="text-align: center">Insert a new purchase:</H2></br>
 <form style="text-align: center;" method="post" action="">
- Product ID: <input type='text' name='prodID'></br>
-Customer ID: <input type='text' name='custID'></br>
-   Quantity: <input type='text' name='qnt'></br><!get the custoner id and product id as well as the new quantity that they want>
+<table>
+<tr>
+ <td>Product ID:</td><td> <input type='text' name='prodID'></td>
+</tr>
+<tr>
+<td>Customer ID:</td><td> <input type='text' name='custID'></td>
+</tr>
+<tr>
+<td>Quantity:</td><td> <input type='text' name='qnt'></td><!get the custoner id and product id as well as the new quantity that they want>
+</tr>
+</table>
 <?php
    include 'Q3check.php'//check which case it is
 ?>

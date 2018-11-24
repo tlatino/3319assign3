@@ -11,11 +11,23 @@
 ?>
 <H2 style="text-align: center">Insert a new customer:</H2></br>
 <form style="text-align: center;" method="post" action="">
-Customer ID: <input type='text' name='custID'></br>
-First Name: <input type='text' name='FN'></br>
-Last Name: <input type='text' name='LN'></br>
-City: <input type='text' name='city'></br><!get the customer information for new customer>
-Phone: <input type='text' name='phone'></br>
+<table style="margin-left: auto; margin-right: auto;">
+<tr>
+   <th>Customer ID:</th><th> <input type='text' name='custID'></th>
+</tr>
+<tr>
+   <th>First Name:</th><th> <input type='text' name='FN'></th>
+</tr>
+<tr>
+   <th>Last Name:</th><th> <input type='text' name='LN'></th>
+</tr>
+<tr>
+   <th>City: </th><th><input type='text' name='city'></th><!get the customer information for new customer>
+</tr>
+<tr>
+   <th>Phone:</th><th> <input type='text' name='phone'></th>
+</tr>
+</table>
 <?php
 
 if(isset($_POST['custID']) && isset($_POST['FN']) && isset($_POST['LN']) && isset($_POST['city']) && isset($_POST['phone']))

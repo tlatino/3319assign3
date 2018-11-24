@@ -1,3 +1,10 @@
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1 {
     color: black;
     background-color: rgb(177, 185, 183);
@@ -46,9 +53,13 @@ h3{
 	text-align: center;
 }
 .buttonwrap{
+
+	bottom:1200px;
+	left:10%;
+	position:relative;
+	margin-top:100%;
 	text-align: center;
 }
 form{
 	float: left;
-	clear: right;
 }

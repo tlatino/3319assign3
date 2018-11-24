@@ -13,7 +13,7 @@
 <?php
    include 'Q5getcustomerdata.php';//get and display the customer data
 ?>
-<input type='text' name='phonenum' value='New Phone Number'><!get new phone number>
+<input type="text" name="phonenum" placeholder="new number"required/><!get new phone number>
 <input type='submit' value='Update Phone Number'>
 </form>
 <?php
