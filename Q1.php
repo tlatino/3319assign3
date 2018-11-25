@@ -15,7 +15,7 @@ include 'connectdb.php';
 <?php
    include 'Q1getCustomerData.php';//display data
 ?>
-<input type="submit" value="Get Customer Purchases">
+<input  type="submit" value="Get Customer Purchases">
 </form> 
 </br>
 <form class= "buttonwrap" method="get" action="Q2.php"><!go to product info section>

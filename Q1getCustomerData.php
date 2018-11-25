@@ -5,10 +5,10 @@
         die("databases query failed.");
     }
    echo "Who are you looking up? </br>";
-   echo "<table>";
+   echo "<table style='margin-left:auto; margin-right:auto;'>";
    echo "<tr><th>Select</th><th>Name</th><th>City</th><th>Phone</th><th>AgentID</th></tr>";
    while ($row = mysqli_fetch_assoc($result)) {//display customers in radio buttons for user to choose
-        echo '<tr><td><input type="radio" name="customers" value="';
+        echo '<tr><td><input type="radio" name="customers1" value="';
         echo $row["customerID"];
         echo '"></td><td>' . $row["lastName"] . " " . $row["firstName"] . "</td><td>" . $row["city"] . "</td><td>" . $row["phone"] . "</td><td><tb>" . $row["agentID"] . "</td></tr>";
    }//display all their information

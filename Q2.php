@@ -23,6 +23,14 @@ include 'connectdb.php';
    include 'Q2getproducts.php';//display table
 ?>
 </form>
+<form class= "buttonwrap" method="get" action="Q1.php"><!go to product info section>
+    <button type="submit">Home </button>
+</form>
+<form class="buttonwrap" method="get" action="Q9.php"><!go to purchase info section>
+    <button type="submit">Purchases</button>
+</form>
+<form class="buttonwrap" method="get" action="Q4.php"><!go to customer info section>
+   <button type="submit">Customers</button>
 </body>
 </html>
 

@@ -43,6 +43,13 @@ if(isset($_POST['custID']) && isset($_POST['FN']) && isset($_POST['LN']) && isse
 <?php
    include 'Q6.php';//allow to delete customers on same page
 ?>
-
+<form class= "buttonwrap" method="get" action="Q2.php"><!go to product info section>
+    <button type="submit">Products </button>
+</form>
+<form class="buttonwrap" method="get" action="Q9.php"><!go to purchase info section>
+    <button type="submit">Purchases</button>
+</form>
+<form class="buttonwrap" method="get" action="Q1.php"><!go to customer info section>
+   <button type="submit">Home</button>
 </body>
 </html>

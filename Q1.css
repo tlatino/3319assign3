@@ -27,7 +27,7 @@ body{
 	background-color: rgb(177, 185, 183);
 }
 input{
-	    font: bold 11px Arial;
+    font: bold 11px Arial;
     text-decoration: none;
     background-color: #EEEEEE;
     color: #333333;
@@ -53,13 +53,12 @@ h3{
 	text-align: center;
 }
 .buttonwrap{
-
-	bottom:1200px;
-	left:10%;
+	float: left;
+	bottom:1700px;
+	left:42%;
 	position:relative;
 	margin-top:100%;
 	text-align: center;
 }
 form{
-	float: left;
 }
